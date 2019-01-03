@@ -7,6 +7,9 @@
     "start": "node server",
     "test": "mocha test"
   },
+   "engines": {
+    "node": "^8.0.0"
+  },
   "dependencies": {
     "bcrypt": "^0.8.6",
     "body-parser": "~1.13.2",
