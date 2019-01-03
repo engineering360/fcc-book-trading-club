@@ -3,7 +3,7 @@
 var app = require('./app');
 var mongoose = require('mongoose');
 var port = process.env.PORT || 3000;
-var dbURI = process.env.MONGODB || process.env.MONGODB_URI || 'mongodb://localhost:27017/bookclub';
+var dbURI = process.env.MONGODB || process.env.MONGODB_URI || 'mongodb://marype:networkengineering12@ds247944.mlab.com:47944/book-trading-club';
 
 mongoose.connect(dbURI);
 
